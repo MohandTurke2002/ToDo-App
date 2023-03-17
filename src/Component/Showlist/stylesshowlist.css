@@ -1,0 +1,31 @@
+.showlist {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+  cursor: pointer;
+}
+
+[type="checkbox"] {
+  margin-right: 15px;
+}
+
+.btnparent {
+  text-align: end;
+}
+
+.para {
+  text-align: center;
+  margin: 20px 0 0;
+  font-size: 20px;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+}
+
+.check p{
+  color: #cccccc61;
+  text-decoration: line-through;
+}

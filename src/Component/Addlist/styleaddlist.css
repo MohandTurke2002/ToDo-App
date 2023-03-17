@@ -1,0 +1,26 @@
+.input {
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: none;
+  flex: 1;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-left: 20px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #635985;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+button:hover {
+  background-color: #393053;
+}
